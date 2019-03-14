@@ -17,5 +17,12 @@
    margin: 200px auto;
    font-weight: bold;
    vertical-align: middle;
-   margin-left: 450px;
+   margin-left: 200px;
+}
+marquee
+{
+  font-size: 30px;
+  font-weight: bold;
+  color:blue;
+
 }
