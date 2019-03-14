@@ -1,10 +1,9 @@
 var d=new Date();
-  //var day= d.getDay().toString();
-  //var month=d.getMonth().toString();
-  //var year=d.getFullYear().toString();
-    document.getElementById("date").innerHTML =d;
-  var d= date
-  document.getElementById("date").innerHTML = Date();
+  var day= d.getDay().toString();
+  var month=d.getMonth().toString();
+  var year=d.getFullYear().toString();
+  document.getElementById("date").innerHTML = d;
+
 $("tr").click(function(e) {
     if (e.target.type == "checkbox") {
         e.stopPropagation();
